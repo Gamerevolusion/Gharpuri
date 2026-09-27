@@ -14,7 +14,9 @@ export default function Archive() {
   const filteredItems = useMemo(() => {
     let items = archiveItems;
 
-    if (selectedCategory !== "All") {
+    if (selectedCategory === "Field Documentation") {
+      items = items.filter((item) => item.tags.includes("Field Survey"));
+    } else if (selectedCategory !== "All") {
       items = items.filter((item) => item.category === selectedCategory);
     }
 
@@ -182,11 +184,12 @@ export default function Archive() {
                   </div>
                 </div>
 
-                {/* Source note for composite entries */}
-                {item.source === "Field Documentation Series" && (
+                {/* Source note for on-site field survey entries */}
+                {item.tags.includes("Field Survey") && (
                   <div className="px-4 pb-3">
-                    <span className="text-[9px] text-[#8F7644] italic border-t border-[#594A3A]/50 pt-2 inline-block">
-                      SOURCE: FIELD DOCUMENTATION SERIES — composite reconstruction
+                    <span className="text-[10px] text-[#B89A5A] font-mono border-t border-[#594A3A]/50 pt-2 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                      ON-SITE GPS FIELD SURVEY · SEPT 2026
                     </span>
                   </div>
                 )}

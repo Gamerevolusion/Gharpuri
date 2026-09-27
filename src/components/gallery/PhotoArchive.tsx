@@ -6,7 +6,7 @@ import { archiveItems } from "@/data/archive";
 import { fieldPhotos, type FieldPhotoItem } from "@/data/fieldDocumentation";
 import { Reveal, StaggerReveal } from "@/components/ui/Reveal";
 
-const generalPhotoItems = archiveItems.filter((item) => item.category !== "Stories");
+const generalPhotoItems = archiveItems;
 
 export default function PhotoArchive() {
   const [activeTab, setActiveTab] = useState<"field" | "all">("field");

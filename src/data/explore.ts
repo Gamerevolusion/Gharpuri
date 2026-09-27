@@ -7,7 +7,7 @@ export const exploreCategories: ExploreCategory[] = [
     description:
       "The rock-cut cave complex at Elephanta, excavated into the island's basaltic cliff face. The main Cave 1 contains the celebrated Shaiva sculptural programme; smaller caves and partially excavated chambers round out the site's architectural range.",
     image: "/images/field-cave1-courtyard.jpeg",
-    archiveNumber: "GH-FLD-04 / GH-007",
+    archiveNumber: "GH-009 / GH-010",
     link: "#archive",
   },
   {
@@ -16,7 +16,7 @@ export const exploreCategories: ExploreCategory[] = [
     description:
       "A sculptural corpus centred on Shaiva iconography — the Trimurti, Nataraja, Yogishvara, Gangadhara, Ardhanarishvara, and Kalyanasundara. Each panel is carved in high or moderate relief directly into the cave's stone surfaces.",
     image: "/images/field-kalyanasundara.jpeg",
-    archiveNumber: "GH-001 to GH-006 / GH-FLD-05",
+    archiveNumber: "GH-001 to GH-007",
     link: "#sculptures",
   },
   {
@@ -25,7 +25,7 @@ export const exploreCategories: ExploreCategory[] = [
     description:
       "The rock-cut architecture of Elephanta — pillared verandas, mandapa-plan interiors, sculpturally decorated doorways and capitals. The caves represent a distinct tradition within Western Indian rock-cut architecture of the early medieval period.",
     image: "/images/field-cave1-mandapa.jpeg",
-    archiveNumber: "GH-FLD-01 / GH-008",
+    archiveNumber: "GH-008 to GH-013",
     link: "#timeline",
   },
   {
@@ -34,7 +34,7 @@ export const exploreCategories: ExploreCategory[] = [
     description:
       "Elephanta Island in Mumbai Harbour — its geography, the ferry approach from the Gateway of India, the settlement pattern, and the relationship between the inhabited island and the uninhabited cave area.",
     image: "/images/island-coast.jpg",
-    archiveNumber: "GH-011 / GH-012",
+    archiveNumber: "GH-014 / GH-015",
     link: "#photo-archive",
   },
   {
@@ -52,7 +52,7 @@ export const exploreCategories: ExploreCategory[] = [
     description:
       "The full digital archive of catalogued items — sculptures, architecture, island documentation, images — browsable by category, period, and location.",
     image: "/images/caves-front.jpg",
-    archiveNumber: "GH-001 to GH-012",
+    archiveNumber: "GH-001 to GH-015",
     link: "#archive",
   },
 ];
