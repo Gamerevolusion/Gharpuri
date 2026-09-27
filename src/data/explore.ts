@@ -8,7 +8,7 @@ export const exploreCategories: ExploreCategory[] = [
       "The rock-cut cave complex at Elephanta, excavated into the island's basaltic cliff face. The main Cave 1 contains the celebrated Shaiva sculptural programme; smaller caves and partially excavated chambers round out the site's architectural range.",
     image: "/images/trimurti.jpg",
     archiveNumber: "GH-007 / GH-009",
-    link: "#site-map",
+    link: "#archive",
   },
   {
     id: "EX-02",

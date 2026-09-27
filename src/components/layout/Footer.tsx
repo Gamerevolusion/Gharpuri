@@ -7,8 +7,8 @@ const footerNavLinks = [
   { label: "3D Experience", href: "#three-d" },
   { label: "Oral Histories", href: "#oral-histories" },
   { label: "Timeline", href: "#timeline" },
-  { label: "Site Map", href: "#site-map" },
   { label: "Preservation", href: "#preservation" },
+  { label: "Survey Results", href: "#survey-results" },
   { label: "About", href: "#about" },
 ];
 

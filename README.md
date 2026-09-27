@@ -35,7 +35,7 @@ Developed as a Semester 5 **Community Engagement Project (CEP)**, GHARAPURI esta
 - **Universal Search Overlay (`Ctrl+K` / `Cmd+K`)**: Instant full-text search across sculptures, timeline events, archive items, oral history testimonies, and preservation records.
 - **3D Digital Experience**: Explores the 2023 LiDAR and photogrammetry documentation campaign conducted by **CyArk / Tapestry**, accompanied by an educational 7-step guide (*"How a Cave Becomes Data"*).
 - **Interactive Historical Timeline**: Chronological journey from the 5th–6th century rock-cut excavation to modern digital initiatives, highlighting academic consensus vs. debated historical dating.
-- **Interpretive Site Map**: Custom responsive vector schematic of Elephanta Island with interactive pins for Caves 1–4, the historic Stone Elephant site, ancient Stupa remains, and the ferry jetty.
+- **Survey Results Dashboard**: Interactive tabbed visualization of a 69-respondent student survey exploring heritage awareness, digital preservation preferences, and community engagement insights — featuring donut charts, Likert scales, horizontal bar graphs, and auto-generated key insights.
 - **Sculptures & Lightbox Gallery**: Curated studies of the 6 canonical Cave 1 relief panels (*Sadashiva / Trimurti, Nataraja, Yogishvara, Gangadhara, Ardhanarishvara, Mahishasuramardini*) with high-resolution lightbox inspection.
 - **Digital Archive Catalog**: Museum-style accession cards with live keyword search and multi-category filtering (`Sculpture`, `Architecture`, `Island`).
 - **Voices of Gharapuri (Oral Histories)**: Field interview recordings and complete English/Marathi transcripts capturing indigenous perspectives of ferry operators, island elders, shopkeepers, guides, and conservation staff.
@@ -73,11 +73,11 @@ gharpuri/
 │   │   ├── gallery/PhotoArchive.tsx# Curated photographic masonry gallery
 │   │   ├── hero/                   # Hero, Introduction & Explore hubs
 │   │   ├── layout/Footer.tsx       # Institutional links, brand mark, legal credits
-│   │   ├── map/SiteMap.tsx         # Interactive SVG schematic with detail panel
 │   │   ├── navigation/Navigation.tsx# Glassmorphism navbar with mobile drawer
 │   │   ├── oral-history/OralHistories.tsx # Community testimonies & audio transcripts
 │   │   ├── preservation/Preservation.tsx  # Conservation analysis & 5 pillars
 │   │   ├── sculptures/Sculptures.tsx      # Relief panels with full-screen lightbox
+│   │   ├── survey/SurveyResults.tsx       # Survey data visualization dashboard
 │   │   ├── three-d/ThreeDExperience.tsx   # 3D scanning showcase & process guide
 │   │   ├── timeline/Timeline.tsx   # Chronological history with confidence tags
 │   │   └── ui/                     # SearchOverlay, Reveal animations, Sources, About
@@ -86,7 +86,7 @@ gharpuri/
 │       ├── archive.ts              # Museum catalog items (GH-001 to GH-012)
 │       ├── oralHistories.ts        # Long-form oral history transcripts
 │       ├── sculptures.ts           # Shaiva iconographic panels
-│       ├── siteMap.ts              # Schematic coordinates & markers
+│       ├── surveyData.ts           # Pre-processed anonymised survey responses
 │       ├── sources.ts              # Citations, institutional links & media licenses
 │       ├── threeD.ts               # 3D model metadata & documentation stages
 │       └── timeline.ts             # Chronological history records

@@ -5,12 +5,12 @@ import Introduction from "@/components/hero/Introduction";
 import Explore from "@/components/hero/Explore";
 import ThreeDExperience from "@/components/three-d/ThreeDExperience";
 import Timeline from "@/components/timeline/Timeline";
-import SiteMap from "@/components/map/SiteMap";
 import Sculptures from "@/components/sculptures/Sculptures";
 import Preservation from "@/components/preservation/Preservation";
 import Archive from "@/components/archive/Archive";
 import OralHistories from "@/components/oral-history/OralHistories";
 import PhotoArchive from "@/components/gallery/PhotoArchive";
+import SurveyResults from "@/components/survey/SurveyResults";
 import About from "@/components/ui/About";
 import Sources from "@/components/ui/Sources";
 import SearchOverlay from "@/components/ui/SearchOverlay";
@@ -27,12 +27,12 @@ export default function Home() {
         <Explore />
         <ThreeDExperience />
         <Timeline />
-        <SiteMap />
         <Sculptures />
         <Preservation />
         <Archive />
         <OralHistories />
         <PhotoArchive />
+        <SurveyResults />
         <About />
         <Sources />
       </main>

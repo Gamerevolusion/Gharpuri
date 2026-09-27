@@ -15,7 +15,7 @@ export default function PhotoArchive() {
         {/* Section header */}
         <div className="flex items-center gap-4 mb-4">
           <span className="text-[#B89A5A] text-xs tracking-[0.2em] uppercase font-medium border border-[#B89A5A]/30 px-3 py-1 rounded bg-[#292724]/50">
-            10
+            09
           </span>
           <Reveal>
             <h2
