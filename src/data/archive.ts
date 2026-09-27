@@ -145,10 +145,71 @@ export const archiveItems: ArchiveItem[] = [
     image: "/images/ferry.jpg",
     tags: ["Island", "Ferry", "Transport", "Gateway of India", "Journey"],
   },
+  {
+    id: "GH-FLD-01",
+    title: "Cave 1 Hypostyle Mandapa & Cushion Capitals",
+    category: "Field Documentation",
+    location: "Cave 1, Elephanta Island (18°57'45.4\" N, 72°55'58.2\" E)",
+    description:
+      "On-site field documentation of Cave 1's interior pillared hall (Mandapa). Showcases canonical 6th-century fluted columns with compressed ribbed cushion capitals (amalaka) and monolithic ceiling beams carved directly from solid Deccan Traps basalt bedrock.",
+    date: "27 Sept 2026 (Field Survey)",
+    source: "Field Documentation Series",
+    image: "/images/field-cave1-mandapa.jpeg",
+    tags: ["Cave 1", "Mandapa", "Pillars", "Cushion Capital", "Basalt", "Field Survey"],
+  },
+  {
+    id: "GH-FLD-02",
+    title: "Shiva Nataraja (Natesha) Relief Niche",
+    category: "Field Documentation",
+    location: "Cave 1 North Niche, Elephanta Island (18°57'45.4\" N, 72°55'58.2\" E)",
+    description:
+      "High-relief on-site capture of Shiva Nataraja performing the cosmic dance within a recessed niche of Cave 1, framed beside a fluted pillar. Dynamic tribhanga posture with elaborate jaṭāmukuṭa and hovering celestial vidyadharas in upper cloud registers.",
+    date: "27 Sept 2026 (Field Survey)",
+    source: "Field Documentation Series",
+    image: "/images/field-nataraja-niche.jpeg",
+    tags: ["Cave 1", "Nataraja", "Shiva", "Dance", "High Relief", "Field Survey"],
+  },
+  {
+    id: "GH-FLD-03",
+    title: "Hillside Cave Facade & Conservation Scaffolding",
+    category: "Field Documentation",
+    location: "Cave Complex Hillside, Elephanta Island (18°57'45\" N, 72°55'58\" E)",
+    description:
+      "Early morning field documentation of the volcanic cliff facade and portico entrance amidst lush monsoon greenery, documenting active ASI structural conservation scaffolding and fissure stabilization in practice.",
+    date: "27 Sept 2026 (Field Survey)",
+    source: "Field Documentation Series",
+    image: "/images/field-cave-facade.jpeg",
+    tags: ["Cave Facade", "Conservation", "Scaffolding", "ASI", "Basalt", "Field Survey"],
+  },
+  {
+    id: "GH-FLD-04",
+    title: "Excavated Sunken Courtyard & Dual Porticoes",
+    category: "Field Documentation",
+    location: "Cave 1 Courtyard, Elephanta Island (18°57'45.4\" N, 72°55'58.2\" E)",
+    description:
+      "Panoramic field record of the monumental sunken courtyard quarried from basalt bedrock, showing sheer 15-meter cliff cuts, visitor scale, and the dual orthogonal portico colonnades leading into the sacred cave complex.",
+    date: "27 Sept 2026 (Field Survey)",
+    source: "Field Documentation Series",
+    image: "/images/field-cave1-courtyard.jpeg",
+    tags: ["Courtyard", "Cave 1", "Panoramic", "Dual Porticoes", "Scale", "Field Survey"],
+  },
+  {
+    id: "GH-FLD-05",
+    title: "Kalyanasundara Murti (Shiva-Parvati Wedding)",
+    category: "Field Documentation",
+    location: "Cave 1, Elephanta Island (18°57'45.4\" N, 72°55'58.2\" E)",
+    description:
+      "On-site high-relief capture of the divine marriage panel (Kalyanasundaramurti). Depicts Shiva taking Parvati's hand (panigrahana) witnessed by celestial devas in clouds, Brahma as priest, and a monumental dvarapala guardian.",
+    date: "27 Sept 2026 (Field Survey)",
+    source: "Field Documentation Series",
+    image: "/images/field-kalyanasundara.jpeg",
+    tags: ["Cave 1", "Kalyanasundara", "Shiva", "Parvati", "Marriage", "Field Survey"],
+  },
 ];
 
 export const archiveCategories = [
   "All",
+  "Field Documentation",
   "Sculpture",
   "Architecture",
   "Island",

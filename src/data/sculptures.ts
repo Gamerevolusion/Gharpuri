@@ -17,9 +17,9 @@ export const sculptures: Sculpture[] = [
     location: "Cave 1, Left Wing",
     description:
       "Shiva as Lord of the Dance, captured in a dynamic, multi-armed pose. This representation draws on a tradition that would reach its peak in later Chola bronzes, yet here it appears in stone with remarkable vitality. The sculpture embodies movement, rhythm, and the cosmic cycle of destruction and rebirth.",
-    image: "/images/nataraja.jpg",
-    tags: ["Shiva", "Nataraja", "Dance", "Movement", "Left wing"],
-    source: "ASI / UNESCO",
+    image: "/images/field-nataraja-niche.jpeg",
+    tags: ["Shiva", "Nataraja", "Dance", "Movement", "Left wing", "On-Site Field Record"],
+    source: "Field Documentation Series / ASI",
   },
   {
     id: "SC-003",
@@ -60,6 +60,16 @@ export const sculptures: Sculpture[] = [
     image: "/images/mahishasuramardini.jpg",
     tags: ["Durga", "Mahishasuramardini", "Demon", "Victory", "Fierce", "Lower register"],
     source: "ASI / UNESCO",
+  },
+  {
+    id: "SC-007",
+    name: "Kalyanasundara Murti (Shiva-Parvati Wedding)",
+    location: "Cave 1, Southwest Niche",
+    description:
+      "A masterpiece high-relief panel portraying the divine wedding of Shiva and Parvati. Shiva reaches out to take Parvati's hand (panigrahana) while Parvati stands modestly to his right. Celestial vidyadharas hover in cloud formations above, Brahma tends the sacrificial fire below, and a monumental dvarapala guardian flanks the scene.",
+    image: "/images/field-kalyanasundara.jpeg",
+    tags: ["Shiva", "Parvati", "Kalyanasundara", "Marriage", "Dvarapala", "On-Site Field Record"],
+    source: "Field Documentation Series / ASI",
   },
 ];
 

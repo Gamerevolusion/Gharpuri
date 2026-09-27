@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Reveal, StaggerReveal } from "@/components/ui/Reveal";
 
 const pillars = [
@@ -97,6 +98,64 @@ export default function Preservation() {
             </div>
           ))}
         </StaggerReveal>
+
+        {/* On-Site Conservation Case Study from Field Documentation */}
+        <Reveal delay={150}>
+          <div className="bg-[#292724] border border-[#594A3A] rounded-2xl overflow-hidden mb-16 hover:border-[#B89A5A]/50 transition-colors">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
+              <div className="lg:col-span-5 relative min-h-[280px] lg:min-h-[340px]">
+                <Image
+                  src="/images/field-cave-facade.jpeg"
+                  alt="Active conservation scaffolding on Elephanta hillside cave facade"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                />
+                <div className="absolute top-3 left-3 bg-[#11110F]/80 backdrop-blur-sm border border-[#B89A5A]/30 px-2.5 py-1 rounded text-[10px] font-mono text-[#F1E8D4]">
+                  FIELD RECORD · 27/09/2026 07:54 AM
+                </div>
+              </div>
+              <div className="lg:col-span-7 p-6 lg:p-8 flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                    <span className="text-[11px] font-mono uppercase tracking-wider text-[#B89A5A]">
+                      On-Site Field Evidence · Cave Facade Conservation
+                    </span>
+                  </div>
+                  <h3 className="font-display text-xl font-bold text-[#F1E8D4] mb-3">
+                    Active Facade Stabilization & Monsoon Runoff Management
+                  </h3>
+                  <p className="text-sm text-[#D8C49D] leading-relaxed mb-4">
+                    Captured during our September 2026 field survey at Gharapuri Island (Lat 18°57&apos;45&quot; N, Long 72°55&apos;58&quot; E), this image visually documents the Archaeological Survey of India&apos;s (ASI) ongoing structural conservation. Steel scaffolding and protective shoring on the right entrance portico support urgent cliff-stabilization operations, sealing deep basalt fissures against water infiltration and counteracting biological weathering from the dense monsoon vegetation above.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-[#E8D8B8] bg-[#11110F]/50 p-3 rounded-lg border border-[#594A3A]/30">
+                    <div className="flex items-center gap-2">
+                      <span className="text-[#B89A5A]">✓</span>
+                      <span>Deccan Traps basalt stabilization</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-[#B89A5A]">✓</span>
+                      <span>Tubular scaffolding shoring</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-[#B89A5A]">✓</span>
+                      <span>Monsoon drainage diversion</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-[#B89A5A]">✓</span>
+                      <span>Vegetation root wedging mitigation</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-4 pt-3 border-t border-[#594A3A]/30 text-[11px] text-[#8F7644] font-mono flex items-center justify-between">
+                  <span>GPS: 18°57&apos;45&quot; N, 72°55&apos;58&quot; E</span>
+                  <span className="text-[#B89A5A]">Elevation: ~65m</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Reveal>
 
         {/* Quote */}
         <Reveal delay={200}>

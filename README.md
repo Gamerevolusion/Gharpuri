@@ -39,8 +39,8 @@ Developed as a Semester 5 **Community Engagement Project (CEP)**, GHARAPURI esta
 - **Sculptures & Lightbox Gallery**: Curated studies of the 6 canonical Cave 1 relief panels (*Sadashiva / Trimurti, Nataraja, Yogishvara, Gangadhara, Ardhanarishvara, Mahishasuramardini*) with high-resolution lightbox inspection.
 - **Digital Archive Catalog**: Museum-style accession cards with live keyword search and multi-category filtering (`Sculpture`, `Architecture`, `Island`).
 - **Voices of Gharapuri (Oral Histories)**: Field interview recordings and complete English/Marathi transcripts capturing indigenous perspectives of ferry operators, island elders, shopkeepers, guides, and conservation staff.
-- **Photo Archive**: Responsive visual catalog featuring high-resolution photography with hover metadata overlays.
-- **Preservation Framework**: Critical exploration of the Five Pillars of Conservation (Physical, Digital, Community, Research, Public Access).
+- **On-Site Field Documentation & Photo Archive**: Dual-mode interactive gallery featuring on-site field survey photographs captured on 27 Sept 2026 with verified GPS geocoding (`18°57'45.4" N, 72°55'58.2" E`), elevation tracking, and deep architectural/iconographic analysis (Mandapa, Nataraja Niche, Hillside Facade with ASI Scaffolding, Sunken Courtyard, and Kalyanasundara Murti) plus an interactive fullscreen Lightbox inspector.
+- **Preservation Framework**: Critical exploration of the Five Pillars of Conservation, featuring real-world on-site photographic case studies of active ASI facade stabilization and monsoon drainage diversion.
 
 ---
 

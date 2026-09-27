@@ -6,17 +6,17 @@ export const exploreCategories: ExploreCategory[] = [
     title: "Caves",
     description:
       "The rock-cut cave complex at Elephanta, excavated into the island's basaltic cliff face. The main Cave 1 contains the celebrated Shaiva sculptural programme; smaller caves and partially excavated chambers round out the site's architectural range.",
-    image: "/images/trimurti.jpg",
-    archiveNumber: "GH-007 / GH-009",
+    image: "/images/field-cave1-courtyard.jpeg",
+    archiveNumber: "GH-FLD-04 / GH-007",
     link: "#archive",
   },
   {
     id: "EX-02",
     title: "Sculptures",
     description:
-      "A sculptural corpus centred on Shaiva iconography — the Trimurti, Nataraja, Yogishvara, Gangadhara, Ardhanarishvara, and Mahishasuramardini. Each panel is carved in high or moderate relief directly into the cave's stone surfaces.",
-    image: "/images/caves-panorama.jpg",
-    archiveNumber: "GH-001 to GH-006",
+      "A sculptural corpus centred on Shaiva iconography — the Trimurti, Nataraja, Yogishvara, Gangadhara, Ardhanarishvara, and Kalyanasundara. Each panel is carved in high or moderate relief directly into the cave's stone surfaces.",
+    image: "/images/field-kalyanasundara.jpeg",
+    archiveNumber: "GH-001 to GH-006 / GH-FLD-05",
     link: "#sculptures",
   },
   {
@@ -24,8 +24,8 @@ export const exploreCategories: ExploreCategory[] = [
     title: "Architecture",
     description:
       "The rock-cut architecture of Elephanta — pillared verandas, mandapa-plan interiors, sculpturally decorated doorways and capitals. The caves represent a distinct tradition within Western Indian rock-cut architecture of the early medieval period.",
-    image: "/images/cave1-pillars.jpg",
-    archiveNumber: "GH-007 to GH-010",
+    image: "/images/field-cave1-mandapa.jpeg",
+    archiveNumber: "GH-FLD-01 / GH-008",
     link: "#timeline",
   },
   {
