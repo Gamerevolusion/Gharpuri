@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore, Children } from "react";
 import type { ReactNode, CSSProperties } from "react";
 
 function subscribeReducedMotion(callback: () => void) {
@@ -86,25 +86,27 @@ export function Reveal({
 export function StaggerReveal({
   children,
   className = "",
+  itemClassName = "",
   staggerDelay = 80,
 }: {
   children: ReactNode;
   className?: string;
+  itemClassName?: string;
   staggerDelay?: number;
 }) {
-  const childArray = Array.isArray(children) ? children : [children];
+  const childArray = Children.toArray(children);
 
   return (
-    <>
+    <div className={className}>
       {childArray.map((child, idx) => (
         <Reveal
           key={idx}
           delay={idx === 0 ? 0 : idx * staggerDelay}
-          className={className}
+          className={`h-full ${itemClassName}`}
         >
           {child}
         </Reveal>
       ))}
-    </>
+    </div>
   );
 }

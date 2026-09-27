@@ -126,10 +126,10 @@ export default function Archive() {
             {filteredItems.map((item) => (
               <article
                 key={item.id}
-                className="bg-[#292724] border border-[#594A3A] rounded-xl overflow-hidden hover:border-[#B89A5A]/50 transition-all duration-300 hover:-translate-y-0.5 group card-hover"
+                className="bg-[#292724] border border-[#594A3A] rounded-xl overflow-hidden hover:border-[#B89A5A]/50 transition-all duration-300 hover:-translate-y-0.5 group card-hover h-full flex flex-col"
               >
                 {/* Image */}
-                <div className="relative h-44 overflow-hidden">
+                <div className="relative h-44 overflow-hidden flex-shrink-0">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -141,7 +141,7 @@ export default function Archive() {
                 </div>
 
                 {/* Catalog metadata */}
-                <div className="p-4">
+                <div className="p-4 flex-1 flex flex-col justify-between">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-[10px] tracking-[0.15em] text-[#B89A5A] font-mono bg-[#11110F]/60 px-2 py-0.5 rounded border border-[#B89A5A]/20">
                       {item.id}

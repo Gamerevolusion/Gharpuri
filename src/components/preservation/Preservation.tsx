@@ -80,7 +80,7 @@ export default function Preservation() {
           {pillars.map((pillar, idx) => (
             <div
               key={pillar.title}
-              className="bg-[#292724] border border-[#594A3A] rounded-xl p-5 hover:border-[#B89A5A]/50 transition-all duration-300 hover:-translate-y-0.5 group card-hover"
+              className="bg-[#292724] border border-[#594A3A] rounded-xl p-5 hover:border-[#B89A5A]/50 transition-all duration-300 hover:-translate-y-0.5 group card-hover h-full flex flex-col"
             >
               <div
                 className="w-8 h-8 rounded-full flex items-center justify-center mb-4 text-xs font-bold text-[#11110F]"

@@ -49,12 +49,10 @@ export default function Sculptures() {
 
           {/* Editorial gallery — not uniform cards */}
           <StaggerReveal className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8" staggerDelay={100}>
-            {sculptures.map((sculpture, idx) => (
+            {sculptures.map((sculpture) => (
               <article
                 key={sculpture.id}
-                className={`group relative bg-[#292724] border border-[#594A3A] rounded-xl overflow-hidden hover:border-[#B89A5A]/50 transition-all duration-300 hover:-translate-y-0.5 ${
-                  idx % 2 === 0 ? "lg:col-start-1" : "lg:col-start-2"
-                }`}
+                className="group relative bg-[#292724] border border-[#594A3A] rounded-xl overflow-hidden hover:border-[#B89A5A]/50 transition-all duration-300 hover:-translate-y-0.5 h-full flex flex-col justify-between"
               >
                 {/* Image */}
                 <div className="relative aspect-[4/3] lg:aspect-[16/10] overflow-hidden">

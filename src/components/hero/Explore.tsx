@@ -36,10 +36,10 @@ export default function Explore() {
           {exploreCategories.map((category) => (
             <article
               key={category.id}
-              className="group relative bg-[#292724] border border-[#594A3A] rounded-xl overflow-hidden hover:border-[#B89A5A]/50 transition-all duration-300 hover:-translate-y-0.5 card-hover"
+              className="group relative bg-[#292724] border border-[#594A3A] rounded-xl overflow-hidden hover:border-[#B89A5A]/50 transition-all duration-300 hover:-translate-y-0.5 card-hover h-full flex flex-col"
             >
               {/* Image */}
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-48 overflow-hidden flex-shrink-0">
                 <Image
                   src={category.image}
                   alt={`${category.title} — Elephanta heritage`}
@@ -60,7 +60,7 @@ export default function Explore() {
               </div>
 
               {/* Content */}
-              <div className="p-5">
+              <div className="p-5 flex-1 flex flex-col justify-between">
                 <h3 className="font-display text-xl font-semibold text-[#F1E8D4] mb-2 group-hover:text-[#B89A5A] transition-colors duration-200">
                   {category.title}
                 </h3>
