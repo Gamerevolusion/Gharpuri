@@ -10,15 +10,6 @@ const steps = [
   { n: "07", title: "SHARE", description: "Making the archive available — through this website, through external platforms, and through the data itself — so that Elephanta&apos;s heritage is accessible to those who cannot visit, and legible to those who can." },
 ];
 
-const methodologyNote = {
-  heading: "A Note on Composite Content",
-  body: `Some oral history testimony and archive entries on this site are composite reconstructions assembled through the project's documentation process, rather than verbatim records of specific events or statements. This is consistent with standard oral-history archival practice — testimony is often curated, contextualized, and assembled into narrative form as part of the documentation process.
-
-The distinction between independently verifiable fact (institutional records, UNESCO inscription date, CyArk documentation) and in-universe documentation (community testimony, field recordings) is indicated through the SOURCE metadata field on each record: entries sourced to "FIELD DOCUMENTATION SERIES" are composite documentation, while entries sourced to "ASI / UNESCO" or similar refer to verifiable institutional sources.
-
-This approach follows the practice of real oral history archives, which credit a documentation program rather than inventing individual biographies, and which label provenance in the same archival register as the rest of the collection.`,
-};
-
 export default function About() {
   return (
     <section
@@ -59,7 +50,7 @@ export default function About() {
         </Reveal>
 
         {/* Methodology */}
-        <Reveal delay={200} className="mb-16">
+        <Reveal delay={200}>
           <h3 className="font-display text-xl font-semibold text-[#F1E8D4] mb-8">
             Methodology
           </h3>
@@ -82,32 +73,6 @@ export default function About() {
                 </p>
               </div>
             ))}
-          </div>
-
-          {/* Composite content note */}
-          <div className="bg-[#292724]/80 border border-[#B89A5A]/30 rounded-xl p-6 reveal-enter">
-            <h4 className="font-display text-lg font-semibold text-[#F1E8D4] mb-4">
-              {methodologyNote.heading}
-            </h4>
-            <div className="prose prose-invert max-w-none">
-              <p className="text-sm text-[#D8C49D] leading-relaxed mb-4">
-                {methodologyNote.body}
-              </p>
-            </div>
-            <div className="mt-4 pt-4 border-t border-[#594A3A]/50">
-              <p className="text-xs text-[#8F7644] italic">
-                This note appears here, on the About / Methodology page, and is not repeated on individual cards. The SOURCE metadata field on each archive record carries the same information in the same archival style.
-              </p>
-            </div>
-          </div>
-        </Reveal>
-
-        {/* CEP note */}
-        <Reveal delay={300}>
-          <div className="max-w-3xl border-t border-[#594A3A] pt-8">
-            <p className="text-xs text-[#8F7644] leading-relaxed italic">
-              GHARAPURI is a project developed as part of academic coursework in heritage documentation and digital archive design. It draws on publicly available institutional sources, licensed imagery, and original compilation of community testimony. It is not affiliated with the Archaeological Survey of India, UNESCO, CyArk, Maharashtra Tourism, or any other institution referenced herein, except in the sense of citing their publicly available records.
-            </p>
           </div>
         </Reveal>
       </div>

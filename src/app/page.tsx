@@ -12,7 +12,6 @@ import OralHistories from "@/components/oral-history/OralHistories";
 import PhotoArchive from "@/components/gallery/PhotoArchive";
 import SurveyResults from "@/components/survey/SurveyResults";
 import About from "@/components/ui/About";
-import Sources from "@/components/ui/Sources";
 import SearchOverlay from "@/components/ui/SearchOverlay";
 
 export default function Home() {
@@ -34,7 +33,6 @@ export default function Home() {
         <PhotoArchive />
         <SurveyResults />
         <About />
-        <Sources />
       </main>
 
       <Footer />
