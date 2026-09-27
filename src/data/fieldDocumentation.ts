@@ -12,7 +12,6 @@ export interface FieldPhotoItem {
     elevation: string;
   };
   image: string;
-  originalFilename: string;
   shortDescription: string;
   detailedAnalysis: string;
   architecturalFeatures: string[];
@@ -36,7 +35,6 @@ export const fieldPhotos: FieldPhotoItem[] = [
       elevation: "70 m",
     },
     image: "/images/field-cave1-mandapa.jpeg",
-    originalFilename: "WhatsApp Image 2026-09-27 at 8.21.57 PM.jpeg",
     shortDescription:
       "Wide interior perspective of Cave 1's hypostyle hall showcasing the characteristic fluted columns, cushion capitals (amalaka), and monolithic ceiling beams hewn directly from solid volcanic basalt.",
     detailedAnalysis:
@@ -68,7 +66,6 @@ export const fieldPhotos: FieldPhotoItem[] = [
       elevation: "70 m",
     },
     image: "/images/field-nataraja-niche.jpeg",
-    originalFilename: "WhatsApp Image 2026-09-27 at 8.21.58 PM.jpeg",
     shortDescription:
       "High-relief sculpture of Shiva Nataraja performing the cosmic dance within a recessed niche of Cave 1, framed alongside an ornate fluted pillar with cushion capital.",
     detailedAnalysis:
@@ -100,7 +97,6 @@ export const fieldPhotos: FieldPhotoItem[] = [
       elevation: "65 m",
     },
     image: "/images/field-cave-facade.jpeg",
-    originalFilename: "WhatsApp Image 2026-09-27 at 8.21.58 PM (1).jpeg",
     shortDescription:
       "Exterior cliff face and rock-cut entrance portico carved into the lush green basalt hill, showing modern ASI conservation scaffolding actively stabilizing the stone facade.",
     detailedAnalysis:
@@ -132,7 +128,6 @@ export const fieldPhotos: FieldPhotoItem[] = [
       elevation: "68 m",
     },
     image: "/images/field-cave1-courtyard.jpeg",
-    originalFilename: "WhatsApp Image 2026-09-27 at 8.21.58 PM (2).jpeg",
     shortDescription:
       "Wide-angle view of Cave 1's monumental excavated sunken courtyard, showing vertical cliff walls, stone entrance steps, visiting public, and the dual portico colonnades.",
     detailedAnalysis:
@@ -164,7 +159,6 @@ export const fieldPhotos: FieldPhotoItem[] = [
       elevation: "70 m",
     },
     image: "/images/field-kalyanasundara.jpeg",
-    originalFilename: "WhatsApp Image 2026-09-27 at 8.21.59 PM.jpeg",
     shortDescription:
       "Celebrated high-relief panel of the wedding of Shiva and Parvati (Kalyanasundaramurti), showing the panigrahana ritual, celestial witnesses, and a monumental dvarapala guardian.",
     detailedAnalysis:

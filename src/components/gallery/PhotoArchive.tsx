@@ -428,12 +428,7 @@ export default function PhotoArchive() {
                 </div>
               </div>
 
-              {/* GPS metadata strip */}
-              <div className="p-3 bg-[#11110F] rounded-lg border border-[#594A3A]/60 flex flex-wrap items-center justify-between text-xs text-[#8F7644] font-mono">
-                <div>Source: {selectedFieldPhoto.originalFilename}</div>
-                <div>Recorded: {selectedFieldPhoto.date} {selectedFieldPhoto.time}</div>
-                <div className="text-[#B89A5A]">Elephanta Caves Main Temple (Cave 1)</div>
-              </div>
+
             </div>
           </div>
         </div>
